@@ -5,6 +5,7 @@
         "browser": true,
         "es6": true
     },
+    "plugins": ["flowtype"],
     "globals": {
         "Mobify": true,
         "Zepto": true,
