@@ -1,0 +1,25 @@
+{
+  "name": "finite-state-monster",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBrookRoberge/finite-state-monster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBrookRoberge/finite-state-monster/issues"
+  },
+  "homepage": "https://github.com/DanielBrookRoberge/finite-state-monster#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  }
+}
