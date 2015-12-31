@@ -28,6 +28,7 @@
     "eslint-plugin-flowtype": "^1.0.0",
     "flow-bin": "^0.20.1",
     "karma": "^0.13.16",
+    "karma-coverage": "^0.5.3",
     "karma-mocha": "^0.2.1",
     "karma-mocha-reporter": "^1.1.5",
     "karma-phantomjs-launcher": "^0.2.2",
