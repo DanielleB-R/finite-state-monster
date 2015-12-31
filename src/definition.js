@@ -4,7 +4,7 @@
 let _ = require('underscore');
 
 let convertObjectDefinition = function(definition) {
-    return _.map(definition, function(transitions) {
+    return _.mapObject(definition, function(transitions) {
         if (_.isArray(transitions)) {
             return _.object(transitions);
         } else if (_.isObject(transitions)) {

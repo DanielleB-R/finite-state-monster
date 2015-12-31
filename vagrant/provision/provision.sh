@@ -25,7 +25,7 @@ sudo apt-get update
 
 # Install key packages for development
 sudo apt-get install -y git nodejs \
-    xfonts-scalable \
+    xfonts-scalable build-essential \
     google-chrome-stable xvfb xfonts-100dpi xfonts-75dpi \
     libjpeg-dev libpng-dev
 
