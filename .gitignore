@@ -29,3 +29,4 @@ node_modules
 dist
 *.marker
 .#*
+.DS_Store
