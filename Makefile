@@ -25,6 +25,6 @@ flow.marker: $(all_js)
 	touch flow.marker
 
 test: $(all_js) $(test_js)
-	$(BROWSERIFY) $(BROWSERIFY_OPTIONS) test/all-tests.js > test/testbundle.js
+# $(BROWSERIFY) $(BROWSERIFY_OPTIONS) test/all-tests.js > test/testbundle.js
 	karma start my.conf.js --single-run
 	rm -f test/testbundle.js
