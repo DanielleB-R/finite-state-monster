@@ -1,5 +1,4 @@
 'use strict';
-/* @flow */
 
 let _ = require('underscore');
 
@@ -17,7 +16,7 @@ let convertArrayDefinition = function(definition) {
     return convertObjectDefinition(_.object(definition));
 };
 
-let convertDefinition = function(definition: Array<any> | {[key: string]: any}) {
+let convertDefinition = function(definition) {
     if (_.isArray(definition)) {
         return convertArrayDefinition(definition);
     } else if (_.isObject(definition)) {

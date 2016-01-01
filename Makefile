@@ -7,9 +7,9 @@ js_src := $(wildcard src/*.js)
 all_js := fsm.js $(js_src)
 test_js := $(wildcard test/*.js)
 
-.PHONY: lint flow test
+.PHONY: lint test
 
-all: lint dist/fsm.js flow
+all: lint dist/fsm.js
 
 $(dist_file): fsm.js $(js_src)
 	$(BROWSERIFY) $(BROWSERIFY_OPTIONS) fsm.js > $@
@@ -18,11 +18,6 @@ lint: eslint.marker
 eslint.marker: $(all_js)
 	eslint $^
 	touch eslint.marker
-
-flow: flow.marker
-flow.marker: $(all_js)
-	flow
-	touch flow.marker
 
 test: $(all_js) $(test_js)
 	xvfb-run karma start my.conf.js --single-run

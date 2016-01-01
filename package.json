@@ -27,7 +27,6 @@
     "chai": "^3.4.1",
     "eslint": "^1.10.3",
     "eslint-plugin-flowtype": "^1.0.0",
-    "flow-bin": "^0.20.1",
     "karma": "^0.13.16",
     "karma-browserify": "^4.4.2",
     "karma-chrome-launcher": "^0.2.2",
