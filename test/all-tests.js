@@ -4,3 +4,4 @@ let chai = require('chai');
 window.assert = chai.assert;
 
 require('./definition-tests');
+require('./machine-tests');

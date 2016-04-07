@@ -4,8 +4,8 @@ BROWSERIFY_OPTIONS := -t babelify
 dist_file := dist/fsm.js
 
 js_src := $(wildcard src/*.js)
-all_js := fsm.js $(js_src)
 test_js := $(wildcard test/*.js)
+all_js := fsm.js $(js_src) $(test_js)
 
 .PHONY: lint test
 

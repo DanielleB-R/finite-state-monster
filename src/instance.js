@@ -9,17 +9,17 @@ class Instance {
 
     move(event) {
         if (event === undefined) {
-            return;
+            return this;
         }
 
         let transitions = this.machine.transitions(this.state);
         if (transitions === undefined) {
-            return;
+            return this;
         }
 
         let newState = transitions[event];
         if (newState === undefined) {
-            return;
+            return this;
         }
 
         this.state = newState;

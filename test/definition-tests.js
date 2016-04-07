@@ -20,7 +20,7 @@ describe('Definition module', function() {
         const partialArrayDefinition = [
             ['', {
                 first: 'one',
-                second: 'two',
+                second: 'two'
             }],
             ['one', {
                 second: 'two'
@@ -40,7 +40,7 @@ describe('Definition module', function() {
         const objDefinition = {
             '': {
                 first: 'one',
-                second: 'two',
+                second: 'two'
             },
             one: {
                 second: 'two'
