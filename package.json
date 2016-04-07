@@ -33,9 +33,11 @@
     "karma-mocha-reporter": "^1.1.5",
     "karma-phantomjs-launcher": "1.0.0",
     "mocha": "^2.3.4",
-    "phantomjs-prebuilt": "2.1.7"
+    "phantomjs-prebuilt": "2.1.7",
+    "webpack": "^1.12.14"
   },
   "dependencies": {
+    "babel-loader": "^6.2.4",
     "underscore": "^1.8.3"
   }
 }

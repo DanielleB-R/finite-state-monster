@@ -9,10 +9,10 @@ all_js := fsm.js $(js_src) $(test_js)
 
 .PHONY: lint test
 
-all: lint dist/fsm.js
+all: lint $(dist_file)
 
 $(dist_file): fsm.js $(js_src)
-	$(BROWSERIFY) $(BROWSERIFY_OPTIONS) fsm.js > $@
+	webpack fsm.js $@
 
 lint: eslint.marker
 eslint.marker: $(all_js)
