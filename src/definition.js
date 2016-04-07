@@ -9,6 +9,7 @@ let convertObjectDefinition = function(definition) {
         } else if (_.isObject(transitions)) {
             return transitions;
         }
+        return null;
     });
 };
 
