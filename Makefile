@@ -1,6 +1,3 @@
-BROWSERIFY := browserify
-BROWSERIFY_OPTIONS := -t babelify
-
 dist_file := dist/fsm.js
 
 js_src := $(wildcard src/*.js)
